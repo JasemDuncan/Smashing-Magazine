@@ -1,5 +1,5 @@
 # Smashing Magazine
- This is a project of cloning the Old Apple webpage from Internet archive as a part of practicing CSS from Odin Project.
+ This is a project meant to demonstrate visual heirarchy  through the use of heat map on the smashing magazine homepage.
 
 ![screenshot](./Assets/images/screenshot.png)
     This project was biult to demonstratate CSS gradients and CSS backgrounds
@@ -15,7 +15,7 @@
 
 ## Milestone
 
-  To match with the original click [here](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+  To match with the original click [here](https://www.smashingmagazine.com/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -49,6 +49,14 @@ To get a local copy up and running follow these simple example steps.
     In any browser, open the index.html file
 
 
+
+👤 **Author**
+
+- Gmail: [Teshager Admasu](mailto:teshager8922@gmail.com)
+- Github: [@teshager21](https://github.com/teshager21)
+- Twitter: [@Teshage84907805](https://twitter.com/Teshage84907805)
+- Linkedin: [Teshager Admasu](https://www.linkedin.com/in/teshager-admasu-0000011a2/)
+
 ## Authors
 
 👤 **Author**
@@ -62,7 +70,7 @@ To get a local copy up and running follow these simple example steps.
 
     Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Teshager21/OldAppleClone/issues).
+Feel free to check the [issues page](https://github.com/JasemDuncan/Smashing-Magazine/issues).
 
 ## Show your support
 
