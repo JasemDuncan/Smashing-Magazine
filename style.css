@@ -1,3 +1,20 @@
 body {
-  background-color: red;
+ 
 }
+
+nav {
+  display:flex;
+}
+
+.logo-icon {
+  width:100%;
+  flex:1.5;
+  fill:black;
+}
+ .nav-items {
+   display:flex;
+   flex:5;
+ }
+ .nav-link {
+   flex:1;
+ }
