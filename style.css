@@ -1,20 +1,22 @@
 body {
- 
+
 }
 
 nav {
-  display:flex;
+  display: flex;
 }
 
 .logo-icon {
-  width:100%;
-  flex:1.5;
-  fill:black;
+  width: 100%;
+  flex: 1.5;
+  fill: black;
 }
- .nav-items {
-   display:flex;
-   flex:5;
- }
- .nav-link {
-   flex:1;
- }
+
+.nav-items {
+  display: flex;
+  flex: 5;
+}
+
+.nav-link {
+  flex: 1;
+}
