@@ -2,17 +2,50 @@ nav {
   display: flex;
 }
 
+.logo{
+background-color:black;
+flex: 1.5;
+}
+
 .logo-icon {
   width: 100%;
-  flex: 1.5;
+  /* flex: 1.5; */
   fill: black;
 }
 
 .nav-items {
   display: flex;
   flex: 5;
+  justify-content: space-around;
+}
+
+.nav-items-inside-contain{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: yellow;
 }
 
 .nav-link {
+  display: flex;
   flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.features{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit,minmax(200,1fr));
+  border: 1px solid yellowgreen;
+}
+
+.feature{
+  padding: 10px;
+  border: 1px solid magenta;
+  text-align: center;
+}
+
+.feature .user{
+  font-size: 50px;
 }
