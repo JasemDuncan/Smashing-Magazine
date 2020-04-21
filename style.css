@@ -1,17 +1,15 @@
 nav {
   display: flex;
+  background-color: #5b5b5b;
+  height: 10em;
 }
 
 .logo {
-  background-color: black;
-  flex: 1.5;
+  flex: 1;
 }
 
 .logo-icon {
   width: 100%;
-
-  /* flex: 1.5; */
-  fill: black;
 }
 
 .nav-items {
@@ -19,12 +17,17 @@ nav {
   flex: 5;
   justify-content: space-around;
 }
-
-.nav-items-inside-contain {
+.nav-item {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: center;
-  background-color: yellow;
+  justify-content: inherit;
+ /*  border:1px pink solid; */
+} 
+
+.nav-items *{
+  margin:0;
+  padding:0;
 }
 
 .nav-link {
@@ -32,6 +35,7 @@ nav {
   flex: 1;
   justify-content: center;
   align-items: center;
+  
 }
 
 .features {
