@@ -1,6 +1,23 @@
+/* ==================================================================================
+                       Typography
+================================================================================== */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+/* ==================================================================================
+                        Layout
+================================================================================== */
 nav {
   display: flex;
-  height: 12em;
+  height: 13em;
   background-color: #5b5b5b;
 }
 
@@ -11,19 +28,17 @@ nav {
   flex: 1;
 }
 
-/* .logo-icon {
-  width: 100%;
-} */
-
 .nav-items {
   display: flex;
   flex: 5;
   justify-content: space-around;
+  padding: 2em;
 }
 .nav-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .nav-link {
@@ -46,7 +61,7 @@ nav {
   padding: 10px;
   border: 1px solid magenta;
   text-align: center;
-  height: 700px;
+  height: 750px;
 }
 
 .feature .user {
