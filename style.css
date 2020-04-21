@@ -7,7 +7,7 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
 }
 
@@ -58,25 +58,50 @@ nav {
   align-items: center;
 }
 
+.title-float{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  padding-bottom: 0em;
+  margin-bottom: -10em;
+}
+
+.float-title{ 
+  text-align: center;
+  color: white;
+  font-size: calc(.625vw + 1.3em);;
+  font-weight: 700;
+  line-height: 1.5em;
+  background-color: black;
+  padding: .5em;
+}
+.float-title:last-child {
+  padding-top: 0ex;
+}
+
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-  border: 1px solid yellowgreen;
   width: 100%;
 }
 
 .feature {
   padding: 10px;
-  border: 1px solid magenta;
-  height: 750px;
+  height: 550px;
   display: flex;
-  flex-direction: column;
   align-content: center;
+  justify-items: center;
+  align-items: center;
   justify-content: center;
 }
 
-card {
-  height: 50%;
+.card {
+  height: 30%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .comment {
@@ -86,10 +111,12 @@ card {
   background-color: #222;
   background-position: left center;
   padding-left: 2em;
+  justify-self: center;
 }
 
 .author {
   display: flex;
+  padding-bottom: 2em;
 }
 
 .author img {
@@ -103,10 +130,21 @@ p {
 }
 
 .article-title {
-  width: 80%;
+  display: flex;
+  padding-bottom: 2em;
 }
 
-.article-title h1 {
+
+.img-comment{
+  display: inline-flex;
+  align-items: flex-start;  
+  width: 40%;
+  height: 2em;
+  font-size: 1rem;
+}
+
+.img-comment h1 {
   display: inline;
   padding-left: 0;
+
 }
