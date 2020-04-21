@@ -6,11 +6,14 @@ nav {
 
 .logo {
   flex: 1;
+  background: url("https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg") ;
+  background-repeat:no-repeat;
+  background-position: center;
 }
 
-.logo-icon {
+/* .logo-icon {
   width: 100%;
-}
+} */
 
 .nav-items {
   display: flex;
