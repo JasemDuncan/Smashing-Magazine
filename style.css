@@ -36,12 +36,7 @@ nav {
 
 .features {
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
-=======
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(200, 1fr));
->>>>>>> 90e3c783239c7eaa47bab5fdfc564218c8737c40
   border: 1px solid yellowgreen;
   width: 100%;  
   
