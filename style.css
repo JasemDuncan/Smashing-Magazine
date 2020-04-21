@@ -1,19 +1,17 @@
 nav {
   display: flex;
+  height: 12em;
   background-color: #5b5b5b;
-  height: 10em;
 }
 
 .logo {
-  flex: 1;
-  background: url("https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg") ;
-  background-repeat:no-repeat;
-  background-position: center;
+  flex: 1.5;
 }
 
-/* .logo-icon {
+.logo-icon {
   width: 100%;
-} */
+  flex: 1.5;
+}
 
 .nav-items {
   display: flex;
@@ -24,13 +22,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: inherit;
- /*  border:1px pink solid; */
-} 
-
-.nav-items *{
-  margin:0;
-  padding:0;
 }
 
 .nav-link {
@@ -43,15 +34,17 @@ nav {
 
 .features {
   display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(200, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
   border: 1px solid yellowgreen;
+  width: 100%;  
+  
 }
 
 .feature {
   padding: 10px;
   border: 1px solid magenta;
   text-align: center;
+  height: 700px;
 }
 
 .feature .user {
