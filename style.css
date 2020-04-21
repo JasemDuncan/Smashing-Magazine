@@ -99,7 +99,7 @@ nav {
 }
 
 .feature:first-child , .feature:last-child {
-background-color:#5B5B5B;
+  background-color:#5b5b5b;
 }
 
 .feature:nth-child(2) {
@@ -190,5 +190,3 @@ p {
   font-size: 1.3rem;
   line-height: 2rem;
 }
-
-
