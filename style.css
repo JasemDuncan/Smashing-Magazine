@@ -3,6 +3,7 @@
 ================================================================================== */
 :root {
   font-family: 'Montserrat', sans-serif;
+  font-style: normal;
 }
 
 h1 {
@@ -12,6 +13,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -54,7 +60,7 @@ nav {
 
 .features {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(800px,1fr));
   border: 1px solid yellowgreen;
   width: 100%;  
   
@@ -63,10 +69,44 @@ nav {
 .feature {
   padding: 10px;
   border: 1px solid magenta;
-  text-align: center;
   height: 750px;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
 }
 
-.feature .user {
-  font-size: 50px;
+card {
+  height:50%;
+}
+
+.comment {
+  background: url('./Assets/images/message.ico');
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyAyOC43MyIgd2lkdGg9IjI4cHgiIGhlaWdodD0iMjhweCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5jb21tZW50PC90aXRsZT48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik05NjAuMzMgMjUyLjMzaC00LjUybC4wNiA3LjczLTYuNjktNy43M2gtOS44NWEzIDMgMCAwIDEtMy0zdi0xNWEzIDMgMCAwIDEgMy0zaDIxYTMgMyAwIDAgMSAzIDN2MTVhMyAzIDAgMCAxLTMgM3oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05MzYuMzMgLTIzMS4zMykiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-color: #222;
+  background-position: left center;
+  padding-left:2em;
+}
+ 
+.author {
+  display:flex;
+}
+
+.author img {
+  width: 6%;
+}
+.author h3 ,p {
+  align-self:center;
+  padding-right: .5em;
+}
+.article-title {
+  width: 80%;
+
+}
+.article-title h1 {
+  display: inline;
+  padding-left: 0;
+   
 }
