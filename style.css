@@ -43,6 +43,7 @@ nav {
   justify-content: space-around;
   padding: 2em;
 }
+
 .nav-item {
   display: flex;
   flex-direction: column;
@@ -55,30 +56,27 @@ nav {
   flex: 1;
   justify-content: center;
   align-items: center;
-  
 }
 
 .features {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(800px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
   border: 1px solid yellowgreen;
-  width: 100%;  
-  
+  width: 100%;
 }
 
 .feature {
   padding: 10px;
   border: 1px solid magenta;
   height: 750px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-
 }
 
 card {
-  height:50%;
+  height: 50%;
 }
 
 .comment {
@@ -87,26 +85,28 @@ card {
   background-repeat: no-repeat;
   background-color: #222;
   background-position: left center;
-  padding-left:2em;
+  padding-left: 2em;
 }
- 
+
 .author {
-  display:flex;
+  display: flex;
 }
 
 .author img {
   width: 6%;
 }
-.author h3 ,p {
-  align-self:center;
-  padding-right: .5em;
+
+.author h3,
+p {
+  align-self: center;
+  padding-right: 0.5em;
 }
+
 .article-title {
   width: 80%;
-
 }
+
 .article-title h1 {
   display: inline;
   padding-left: 0;
-   
 }
