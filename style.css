@@ -1,18 +1,16 @@
 nav {
   display: flex;
   height: 10em;
+  background-color: #5b5b5b;
 }
 
 .logo {
-  background-color: black;
   flex: 1.5;
 }
 
 .logo-icon {
   width: 100%;
-
-  /* flex: 1.5; */
-  fill: black;
+  flex: 1.5;
 }
 
 .nav-items {
