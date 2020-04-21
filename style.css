@@ -58,26 +58,27 @@ nav {
   align-items: center;
 }
 
-.title-float{
+.title-float {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3em;
-  padding-bottom: 0em;
+  padding-bottom: 0;
   margin-bottom: -10em;
 }
 
-.float-title{ 
+.float-title {
   text-align: center;
   color: white;
-  font-size: calc(.625vw + 1.3em);;
+  font-size: calc(0.625vw + 1.3em);
   font-weight: 700;
   line-height: 1.5em;
   background-color: black;
-  padding: .5em;
+  padding: 0.5em;
 }
+
 .float-title:last-child {
-  padding-top: 0ex;
+  padding-top: 0;
 }
 
 .features {
@@ -135,9 +136,9 @@ p {
 }
 
 
-.img-comment{
+.img-comment {
   display: inline-flex;
-  align-items: flex-start;  
+  align-items: flex-start;
   width: 40%;
   height: 2em;
   font-size: 1rem;
@@ -146,5 +147,4 @@ p {
 .img-comment h1 {
   display: inline;
   padding-left: 0;
-
 }
