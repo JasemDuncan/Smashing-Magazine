@@ -98,14 +98,9 @@ nav {
   justify-content: center;
 }
 
-<<<<<<< HEAD
-.feature:first-child , .feature:last-child {
-  background-color:#5b5b5b;
-=======
 .feature:first-child,
 .feature:last-child {
   background-color: #5b5b5b;
->>>>>>> 0fc308c1d48bcf9cda06e783d2b3c335ec7184ea
 }
 
 .feature:nth-child(2) {
