@@ -62,7 +62,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0,3em;
+  padding: 0, 3em;
   margin-bottom: -10em;
 }
 
@@ -84,7 +84,7 @@ nav {
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
- grid-auto-rows: 80vh;
+  grid-auto-rows: 80vh;
   width: 100%;
 }
 
@@ -166,35 +166,41 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 40vh repeat(4,80vh);
+  grid-template-rows: 40vh repeat(4, 80vh);
+
   /* grid-auto-rows:80vh; */
   align-content: stretch;
   justify-items: center;
   background-color: skyblue;
- /*  grid-column-gap: 0;
+
+  /*  grid-column-gap: 0;
   grid-row-gap: 0; */
-  
 }
 
 .membership-call {
   grid-column: 1/-1;
+
   /* grid-row: 1; */
-  background-color:brown;
+  background-color: brown;
 }
 
 .previous-articles .late {
   display: flex;
   flex-direction: column;
- /*  justify-items: center; */
+
+  /*  justify-items: center; */
+
   /* justify-content: start; */
+
   /* align-items: center; */
- /*  align-content: center; */
- align-self: center;
- justify-self: center;
+
+  /*  align-content: center; */
+  align-self: center;
+  justify-self: center;
   width: 80%;
   height: 80%;
   border: black solid 1px;
-  background-color:goldenrod;
+  background-color: goldenrod;
 }
 
 .previous-articles .late * {
@@ -204,6 +210,7 @@ p {
   align-self: start;
   position: relative;
   grid-column: span 1;
+
   /* grid-row: span 1; */
   height: 80%;
 }
@@ -212,46 +219,50 @@ p {
   font-size: 1.3rem;
   line-height: 2rem;
 }
- .readmore {
-  position:absolute;
+
+.readmore {
+  position: absolute;
   margin-bottom: 0;
   width: 35%;
   height: 15%;
   left: 0%;
-  bottom:0%;
- /*  background-color: red; */
+  bottom: 0%;
+
+  /*  background-color: red; */
   background: url('./Assets/images/readmore.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 25%;
- }
+}
 
- .readmore:hover {
-   background-color: #fff;
-   
- }
+.readmore:hover {
+  background-color: #fff;
+}
 
- .sign-up {
-    grid-column:span 2; 
-    /* background-color: red; */
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
- }
+.sign-up {
+  grid-column: span 2;
+
+  /* background-color: red; */
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
 
 .call {
   height: 80%;
   width: 80%;
-  display:flex;
-  align-content:center;
+  display: flex;
+  align-content: center;
   justify-content: center;
   flex-direction: column;
   background-color: green;
   align-items: center;
 }
 
-.call h1 , .call p, .call button {
- /*  background-color:purple; */
+.call h1,
+ .call p,
+ .call button {
+  /*  background-color:purple; */
   height: auto;
 }
