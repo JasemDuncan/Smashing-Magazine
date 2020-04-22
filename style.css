@@ -164,7 +164,7 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3,45vw) 4vw 100vw;
+  grid-template-rows: repeat(3,45vw) 5vw 60vw 20vw repeat(3,25vw);
   align-content: stretch;
   justify-items: center; 
 }
@@ -172,10 +172,6 @@ p {
  .late {
   display: flex;
   flex-direction: column;
- /*  justify-items: center; */
-  /* justify-content: start; */
-  /* align-items: center; */
- /*  align-content: center; */
  align-self: center;
  justify-self: center;
   width: 80%;
@@ -192,9 +188,7 @@ p {
   align-self: start;
   position: relative;
   grid-column: span 1;
-  /* grid-row: span 1; */
-  /* height: 80%; */
-}
+ }
 
 .previous-articles p {
   font-size: 1.3rem;
@@ -240,19 +234,88 @@ p {
 }
 
 .call h1 , .call p, .call button {
- /*  background-color:purple; */
   height: auto;
 }
 .see-more {
   grid-column: 1/span 4;
-  background-color: red;
   display:flex;
- /*  justify-items: center; */
+  align-self:center;
 }
+
 .book-advert {
   grid-column: -1/1;
   justify-content: center;
-  /* display:flex;
-  flex-direction: column; */
+  background-color:greenyellow;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+.person-of-the-week {
+  grid-column: -1/1;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  align-self: start;
+}
+
+.person-of-the-week img {
+  width:38%;
+  border: 10px #222 solid;
+  border-radius: 1em;
+  align-self:flex-end;
+  margin-right: 2em;
+}
+
+.legacy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.legacy p:first-child{
+  align-self: flex-start;
+  padding-bottom: 2rem;
+}
+
+.more-articles {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.more-article {
+  width: 90%;
+  display: flex;
+  justify-items: space-evenly;
+  /* background-color: black; */
+  align-items: center;
+  align-content:center;
+  padding-left: 3em;
+}
+
+.author-wrote {
+  display:flex; 
+  background-color: grey;
+}
+
+.more-article div {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-items:center;
+}
+
+.more-article div * {
+  padding-bottom: 1em;
+}
+
+.more-article img {
+  padding-right:1.5em;
+  align-self: start;
 }
