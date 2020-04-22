@@ -245,51 +245,48 @@ p {
   align-self: center;
 }
 
-.book-ad{
-  display: flex; 
+.book-ad {
+  display: flex;
   grid-column: 1/-1;
   justify-content: center;
 }
 
-.book-ad > div{
+.book-ad > div {
   display: flex;
-  width: 90%;  
+  width: 90%;
   align-items: center;
   align-self: center;
   height: 90%;
 }
 
-.design-system{
+.design-system {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   justify-content: space-between;
   height: 100%;
   flex: 5;
   align-items: flex-start;
-
 }
 
-button{
+button {
   height: 70px;
   border-radius: 15px;
-  font-size: calc(1em + .50vw);
-  padding: .75em 1em;
+  font-size: calc(1em + 0.5vw);
+  padding: 0.75em 1em;
   font-weight: bold;
 }
 
-.book-ad div div:nth-child(2){
+.book-ad div div:nth-child(2) {
   display: flex;
   flex: 3;
   justify-content: flex-end;
 }
 
 .book-ad div div:nth-child(2) > img {
-
   width: 35%;
-
 }
 
-.guides{
+.guides {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -298,14 +295,13 @@ button{
   margin-top: 5em;
 }
 
-.guides p{
+.guides p {
   margin-bottom: 1em;
   align-self: flex-start;
-  font-size: .8em ;
-
+  font-size: 0.8em;
 }
 
-.guides h2{
+.guides h2 {
   padding-bottom: 1em;
 }
 
@@ -315,10 +311,10 @@ button{
   color: black;
 }
 
-.guides li{
+.guides li {
   line-height: 2em;
   font-size: 1.3em;
-  padding-left: 1em; 
+  padding-left: 1em;
 }
 
 
