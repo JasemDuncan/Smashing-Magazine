@@ -123,8 +123,6 @@ nav {
   background: url('./Assets/images/message.ico');
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyAyOC43MyIgd2lkdGg9IjI4cHgiIGhlaWdodD0iMjhweCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5jb21tZW50PC90aXRsZT48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik05NjAuMzMgMjUyLjMzaC00LjUybC4wNiA3LjczLTYuNjktNy43M2gtOS44NWEzIDMgMCAwIDEtMy0zdi0xNWEzIDMgMCAwIDEgMy0zaDIxYTMgMyAwIDAgMSAzIDN2MTVhMyAzIDAgMCAxLTMgM3oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05MzYuMzMgLTIzMS4zMykiLz48L3N2Zz4=);
   background-repeat: no-repeat;
-
-  /* background-color: #000; */
   background-position: left center;
   padding-left: 2em;
   justify-self: center;
@@ -166,14 +164,9 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4,45vw);
-  /* grid-auto-rows:80vh; */
+  grid-template-rows: repeat(3,45vw) 4vw 100vw;
   align-content: stretch;
-  justify-items: center;
-  background-color: skyblue;
- /*  grid-column-gap: 0;
-  grid-row-gap: 0; */
-  
+  justify-items: center; 
 }
 
  .late {
@@ -249,4 +242,17 @@ p {
 .call h1 , .call p, .call button {
  /*  background-color:purple; */
   height: auto;
+}
+.see-more {
+  grid-column: 1/span 4;
+  background-color: red;
+  display:flex;
+ /*  justify-items: center; */
+}
+.book-advert {
+  grid-column: -1/1;
+  justify-content: center;
+  /* display:flex;
+  flex-direction: column; */
+
 }
