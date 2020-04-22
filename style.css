@@ -166,7 +166,8 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3,80vh);
+  grid-template-rows: 40vh repeat(4,80vh);
+  /* grid-auto-rows:80vh; */
   align-content: stretch;
   justify-items: center;
   background-color: skyblue;
@@ -175,25 +176,36 @@ p {
   
 }
 
-.previous-articles section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  width: 80%;
-  position: relative;
-  padding-bottom: 0;
-  border: black solid 1px;
+.membership-call {
+  grid-column: 1/-1;
+  /* grid-row: 1; */
+  background-color:brown;
 }
 
-.previous-articles section * {
+.previous-articles .late {
+  display: flex;
+  flex-direction: column;
+ /*  justify-items: center; */
+  /* justify-content: start; */
+  /* align-items: center; */
+ /*  align-content: center; */
+ align-self: center;
+ justify-self: center;
+  width: 80%;
+  height: 80%;
+  border: black solid 1px;
+  background-color:goldenrod;
+}
+
+.previous-articles .late * {
   padding-bottom: 1em;
   padding-top: 0;
   margin: 0;
   align-self: start;
+  position: relative;
   grid-column: span 1;
-  grid-row: span 1;
+  /* grid-row: span 1; */
+  height: 80%;
 }
 
 .previous-articles p {
@@ -207,7 +219,7 @@ p {
   height: 15%;
   left: 0%;
   bottom:0%;
-  background-color: red;
+ /*  background-color: red; */
   background: url('./Assets/images/readmore.svg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -220,7 +232,26 @@ p {
  }
 
  .sign-up {
-   grid-column:span 2; grid-column-gap: 0;
-   grid-row-gap: 0;
+    grid-column:span 2; 
+    /* background-color: red; */
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
  }
 
+.call {
+  height: 80%;
+  width: 80%;
+  display:flex;
+  align-content:center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: green;
+  align-items: center;
+}
+
+.call h1 , .call p, .call button {
+ /*  background-color:purple; */
+  height: auto;
+}
