@@ -62,7 +62,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0,3em;
+  padding: 0, 3em;
   margin-bottom: -10em;
 }
 
@@ -84,7 +84,7 @@ nav {
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
- grid-auto-rows: 80vh;
+  grid-auto-rows: 80vh;
   width: 100%;
 }
 
@@ -164,89 +164,93 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3,45vw) 5vw 60vw 20vw repeat(3,25vw);
+  grid-template-rows: repeat(3, 45vw) 5vw 60vw 20vw repeat(3, 25vw);
   align-content: stretch;
-  justify-items: center; 
+  justify-items: center;
 }
 
- .late {
+.late {
   display: flex;
   flex-direction: column;
- align-self: center;
- justify-self: center;
+  align-self: center;
+  justify-self: center;
   width: 80%;
   height: 90%;
   border: black solid 1px;
-  background-color:goldenrod;
+  background-color: goldenrod;
   position: relative;
 }
 
- .late * {
+.late * {
   padding-bottom: 1em;
   padding-top: 0;
   margin: 0;
   align-self: start;
   position: relative;
   grid-column: span 1;
- }
+}
 
 .previous-articles p {
   font-size: 1.3rem;
   line-height: 2rem;
 }
- .readmore {
-  position:absolute;
+
+.readmore {
+  position: absolute;
   margin-bottom: 0;
   width: 35%;
   height: 15%;
   left: 0%;
-  bottom:0%;
+  bottom: 0%;
   background-color: red;
   background: url('./Assets/images/readmore.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 25%;
- }
+}
 
- .readmore:hover {
-   background-color: #fff;
-   
- }
+.readmore:hover {
+  background-color: #fff;
+}
 
- .sign-up {
-    grid-column:span 2; 
-    /* background-color: red; */
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
- }
+.sign-up {
+  grid-column: span 2;
+
+  /* background-color: red; */
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
 
 .call {
   height: 90%;
   width: 80%;
-  display:flex;
-  align-content:center;
+  display: flex;
+  align-content: center;
   justify-content: center;
   flex-direction: column;
   background-color: green;
   align-items: center;
 }
 
-.call h1 , .call p, .call button {
+.call h1,
+ .call p,
+ .call button {
   height: auto;
 }
+
 .see-more {
   grid-column: 1/span 4;
-  display:flex;
-  align-self:center;
+  display: flex;
+  align-self: center;
 }
 
 .book-advert {
   grid-column: -1/1;
   justify-content: center;
-  background-color:greenyellow;
-  display:flex;
+  background-color: greenyellow;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
@@ -254,7 +258,7 @@ p {
 
 .person-of-the-week {
   grid-column: -1/1;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -265,10 +269,10 @@ p {
 }
 
 .person-of-the-week img {
-  width:38%;
+  width: 38%;
   border: 10px #222 solid;
   border-radius: 1em;
-  align-self:flex-end;
+  align-self: flex-end;
   margin-right: 2em;
 }
 
@@ -277,7 +281,8 @@ p {
   flex-direction: column;
   align-items: flex-start;
 }
-.legacy p:first-child{
+
+.legacy p:first-child {
   align-self: flex-start;
   padding-bottom: 2rem;
 }
@@ -293,22 +298,23 @@ p {
   width: 90%;
   display: flex;
   justify-items: space-evenly;
+
   /* background-color: black; */
   align-items: center;
-  align-content:center;
+  align-content: center;
   padding-left: 3em;
 }
 
 .author-wrote {
-  display:flex; 
+  display: flex;
   background-color: grey;
 }
 
 .more-article div {
-  height: 100%; 
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-items:center;
+  justify-items: center;
 }
 
 .more-article div * {
@@ -316,6 +322,6 @@ p {
 }
 
 .more-article img {
-  padding-right:1.5em;
+  padding-right: 1.5em;
   align-self: start;
 }
