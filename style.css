@@ -261,8 +261,8 @@ p {
 }
 
 .call h1,
- .call p,
- .call button {
+.call p,
+.call button {
   /*  background-color:purple; */
   height: auto;
 }
