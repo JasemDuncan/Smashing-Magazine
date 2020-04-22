@@ -247,6 +247,7 @@ p {
 
 .book-advert {
   grid-column: -1/1;
+
   /* justify-content: center; */
   background-color: greenyellow;
   display: flex;
