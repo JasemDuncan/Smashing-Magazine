@@ -164,7 +164,7 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 45vw) 5vw 60vw 20vw repeat(3, 25vw);
+  grid-template-rows: repeat(3, 45vw) 5vw 60vw 20vw repeat(3, 25vw) 5vw 20vw 40vw;
   align-content: stretch;
   justify-items: center;
 }
@@ -235,7 +235,7 @@ p {
 
 .call h1,
 .call p,
-.call button {
+.call {
   height: auto;
 }
 
@@ -245,10 +245,85 @@ p {
   align-self: center;
 }
 
+.book-ad{
+  display: flex; 
+  grid-column: 1/-1;
+  justify-content: center;
+}
+
+.book-ad > div{
+  display: flex;
+  width: 90%;  
+  align-items: center;
+  align-self: center;
+  height: 90%;
+}
+
+.design-system{
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;
+  height: 100%;
+  flex: 5;
+  align-items: flex-start;
+
+}
+
+button{
+  height: 70px;
+  border-radius: 15px;
+  font-size: calc(1em + .50vw);
+  padding: .75em 1em;
+  font-weight: bold;
+}
+
+.book-ad div div:nth-child(2){
+  display: flex;
+  flex: 3;
+  justify-content: flex-end;
+}
+
+.book-ad div div:nth-child(2) > img {
+
+  width: 35%;
+
+}
+
+.guides{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 5em;
+  margin-top: 5em;
+}
+
+.guides p{
+  margin-bottom: 1em;
+  align-self: flex-start;
+  font-size: .8em ;
+
+}
+
+.guides h2{
+  padding-bottom: 1em;
+}
+
+.guides ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: black;
+}
+
+.guides li{
+  line-height: 2em;
+  font-size: 1.3em;
+  padding-left: 1em; 
+}
+
+
 .book-advert {
   grid-column: -1/1;
-
-  /* justify-content: center; */
   background-color: greenyellow;
   display: flex;
   flex-direction: column;
