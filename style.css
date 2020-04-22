@@ -202,7 +202,6 @@ p {
   height: 15%;
   left: 0%;
   bottom: 0%;
-  background-color: red;
   background: url('./Assets/images/readmore.svg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -248,7 +247,7 @@ p {
 
 .book-advert {
   grid-column: -1/1;
-  justify-content: center;
+  /* justify-content: center; */
   background-color: greenyellow;
   display: flex;
   flex-direction: column;
