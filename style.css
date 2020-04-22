@@ -276,10 +276,30 @@ button {
   font-weight: bold;
 }
 
+.more-article div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
 .book-ad div div:nth-child(2) {
   display: flex;
   flex: 3;
   justify-content: flex-end;
+}
+
+.person-of-the-week img {
+  width: 38%;
+  border: 10px #222 solid;
+  border-radius: 1em;
+  align-self: flex-end;
+  margin-right: 2em;
+}
+
+.more-article img {
+  padding-right: 1.5em;
+  align-self: start;
 }
 
 .book-ad div div:nth-child(2) > img {
@@ -317,7 +337,6 @@ button {
   padding-left: 1em;
 }
 
-
 .book-advert {
   grid-column: -1/1;
   background-color: greenyellow;
@@ -337,14 +356,6 @@ button {
 .vertical-text {
   writing-mode: vertical-rl;
   align-self: start;
-}
-
-.person-of-the-week img {
-  width: 38%;
-  border: 10px #222 solid;
-  border-radius: 1em;
-  align-self: flex-end;
-  margin-right: 2em;
 }
 
 .legacy {
@@ -381,18 +392,6 @@ button {
   background-color: grey;
 }
 
-.more-article div {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-}
-
 .more-article div * {
   padding-bottom: 1em;
-}
-
-.more-article img {
-  padding-right: 1.5em;
-  align-self: start;
 }
