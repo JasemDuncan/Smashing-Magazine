@@ -214,12 +214,9 @@ p {
 
 .sign-up {
   grid-column: span 2;
-
-  /* background-color: red; */
   display: flex;
   justify-items: center;
   justify-content: center;
-  align-items: center;
 }
 
 .call {
