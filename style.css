@@ -166,7 +166,7 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 40vh repeat(4,80vh);
+  grid-template-rows: repeat(4,45vw);
   /* grid-auto-rows:80vh; */
   align-content: stretch;
   justify-items: center;
@@ -176,13 +176,7 @@ p {
   
 }
 
-.membership-call {
-  grid-column: 1/-1;
-  /* grid-row: 1; */
-  background-color:brown;
-}
-
-.previous-articles .late {
+ .late {
   display: flex;
   flex-direction: column;
  /*  justify-items: center; */
@@ -192,12 +186,13 @@ p {
  align-self: center;
  justify-self: center;
   width: 80%;
-  height: 80%;
+  height: 90%;
   border: black solid 1px;
   background-color:goldenrod;
+  position: relative;
 }
 
-.previous-articles .late * {
+ .late * {
   padding-bottom: 1em;
   padding-top: 0;
   margin: 0;
@@ -205,7 +200,7 @@ p {
   position: relative;
   grid-column: span 1;
   /* grid-row: span 1; */
-  height: 80%;
+  /* height: 80%; */
 }
 
 .previous-articles p {
@@ -219,7 +214,7 @@ p {
   height: 15%;
   left: 0%;
   bottom:0%;
- /*  background-color: red; */
+  background-color: red;
   background: url('./Assets/images/readmore.svg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -241,7 +236,7 @@ p {
  }
 
 .call {
-  height: 80%;
+  height: 90%;
   width: 80%;
   display:flex;
   align-content:center;
