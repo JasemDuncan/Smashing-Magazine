@@ -165,7 +165,6 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 45vw) 5vw 60vw 20vw repeat(3, 25vw) 5vw 20vw 40vw;
-  align-content: stretch;
   justify-items: center;
 }
 
@@ -215,7 +214,11 @@ p {
 .sign-up {
   grid-column: span 2;
   display: flex;
-  justify-items: center;
+  flex-direction: column;
+  align-self:center;
+  height:90%;
+  width: 90%;
+  align-items: center;
   justify-content: center;
 }
 
@@ -223,17 +226,13 @@ p {
   height: 90%;
   width: 80%;
   display: flex;
-  align-content: center;
-  justify-content: center;
   flex-direction: column;
   background-color: green;
+  justify-content: space-evenly;
   align-items: center;
-}
-
-.call h1,
-.call p,
-.call {
-  height: auto;
+  align-content: center;
+  padding: 10%;
+  border-radius: 2em;
 }
 
 .see-more {
@@ -267,7 +266,7 @@ p {
 
 button {
   height: 70px;
-  border-radius: 15px;
+  border-radius: 8px;
   font-size: calc(1em + 0.5vw);
   padding: 0.75em 1em;
   font-weight: bold;
@@ -391,4 +390,7 @@ button {
 
 .more-article div * {
   padding-bottom: 1em;
+}
+.angle {
+  transform:rotateZ(-11deg);
 }
