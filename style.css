@@ -464,3 +464,14 @@ footer {
   padding: 4em;
   text-align: center;
 }
+.bookmarks {
+  display: flex;
+  width: 30vw;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bookmarks a {
+  padding: .5em;
+}
