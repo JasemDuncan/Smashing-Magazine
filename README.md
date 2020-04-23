@@ -2,7 +2,7 @@
  This is a project meant to demonstrate visual heirarchy  through the use of heat map on the smashing magazine homepage.
 
 ![screenshot](./Assets/images/screenshot.png)
-    This project was biult to demonstratate CSS gradients and CSS backgrounds
+    
 
 ## Built With
 
