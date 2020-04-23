@@ -30,6 +30,8 @@ h3 {
 ================================================================================== */
 body {
   background-color: #bbb;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 nav {
