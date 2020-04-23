@@ -135,7 +135,7 @@ nav {
 
 .author img {
   width: 10%;
-  border-radius: .5em;
+  border-radius: 0.5em;
 }
 
 .author h3,
@@ -216,12 +216,12 @@ p {
   grid-column: span 2;
   display: flex;
   flex-direction: column;
-  align-self:center;
-  height:90%;
+  align-self: center;
+  height: 90%;
   width: 90%;
   align-items: center;
   justify-content: center;
-  background-color:gold;
+  background-color: gold;
 }
 
 .call {
@@ -233,7 +233,8 @@ p {
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
- /*   margin: 0 -10%; */
+
+  /*   margin: 0 -10%; */
   border-radius: 2em;
 }
 
@@ -241,7 +242,8 @@ p {
   grid-column: 1/span 4;
   display: flex;
   align-self: center;
- /*  grid-row: 11; */
+
+  /*  grid-row: 11; */
 }
 
 .book-ad {
@@ -299,8 +301,8 @@ button {
 .more-article img {
   margin-right: 1.5em;
   align-self: start;
-  border:#333 solid .3em;
-  border-radius:.5em;
+  border: #333 solid 0.3em;
+  border-radius: 0.5em;
 }
 
 .book-ad div div:nth-child(2) > img {
@@ -314,6 +316,7 @@ button {
   align-items: flex-start;
   padding-left: 5em;
   margin-top: 5em;
+
   /* grid-row: 12; */
 }
 
@@ -397,12 +400,13 @@ button {
 .more-article div * {
   padding-bottom: 1em;
 }
+
 .angle {
-  transform:rotateZ(-11deg);
+  transform: rotateZ(-11deg);
   transition: transform 200ms ease-in;
 }
 
-.angle:hover{
+.angle:hover {
   transform: rotateZ(0deg);
 }
 
@@ -414,27 +418,29 @@ button {
 
 .btn-group {
   display: flex;
-  width:50%;
+  width: 50%;
   align-content: center;
 }
 
 .btn-group button {
-  border-radius:0;
+  border-radius: 0;
   border: none;
-  flex:1;
-}
-.btn-group input {
-  flex:1.5;
-  margin-right:-3px;
+  flex: 1;
 }
 
-.big{
- grid-column: 1/-1;
- padding: 0 10%;
- width: 90%;
+.btn-group input {
+  flex: 1.5;
+  margin-right: -3px;
 }
+
+.big {
+  grid-column: 1/-1;
+  padding: 0 10%;
+  width: 90%;
+}
+
 footer {
-  height:30vw;
+  height: 30vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -446,7 +452,8 @@ footer {
   width: 90vw;
   justify-items: space-evenly;
   justify-content: center;
-  padding:4rem;
+  padding: 4rem;
+
   /* background-color: red; */
   margin: 0 auto;
   flex-wrap: wrap;
@@ -454,6 +461,7 @@ footer {
   list-style-position: inside;
   color: black;
 }
+
 .interests li {
   padding: 0.5em 1em;
 }
@@ -464,6 +472,7 @@ footer {
   padding: 4em;
   text-align: center;
 }
+
 .bookmarks {
   display: flex;
   width: 30vw;
@@ -473,5 +482,5 @@ footer {
 }
 
 .bookmarks a {
-  padding: .5em;
+  padding: 0.5em;
 }
