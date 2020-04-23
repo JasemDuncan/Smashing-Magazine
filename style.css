@@ -515,31 +515,13 @@ footer {
   justify-items: center;
 }
 
-/* .see-more {
-  grid-column: span 1;
-  display: flex;
-  align-self: center;
-} */
 .person-of-the-week {
    grid-column: span 1;
   display: flex; 
   flex-direction: column;
- /*  align-items: center;
-  justify-content: space-evenly; */
+
 }
-/* .book-ad {
-  display: flex;
-  grid-column: span 1;
-  justify-content: center;
-} */
-/* .book-advert {
-  grid-column: span 1;
-  background-color: greenyellow;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-} */
+
 
 
 }
