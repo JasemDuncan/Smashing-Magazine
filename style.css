@@ -165,7 +165,7 @@ p {
 .previous-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 45vw) 5vw 60vw 20vw repeat(3, 25vw) 5vw 20vw 40vw;
+  grid-template-rows: repeat(3, 45vw) 5vw 60vw 20vw repeat(3, 25vw) 5vw 20vw 40vw 60vw 5vw;
   justify-items: center;
 }
 
@@ -240,6 +240,7 @@ p {
   grid-column: 1/span 4;
   display: flex;
   align-self: center;
+ /*  grid-row: 11; */
 }
 
 .book-ad {
@@ -263,6 +264,7 @@ p {
   height: 100%;
   flex: 5;
   align-items: flex-start;
+  /* grid-row: 11; */
 }
 
 button {
@@ -312,6 +314,7 @@ button {
   align-items: flex-start;
   padding-left: 5em;
   margin-top: 5em;
+  /* grid-row: 12; */
 }
 
 .guides p {
@@ -396,9 +399,37 @@ button {
 }
 .angle {
   transform:rotateZ(-11deg);
-  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in;
 }
 
 .angle:hover{
   transform: rotateZ(0deg);
+}
+
+.news-letter {
+  grid-column: 1/-1;
+  margin: 0em;
+  /* height: 100%; */
+  /* grid-row: 13/span 1; */
+/*   grid-row: span 1; */
+background-color: black;
+}
+
+.btn-group {
+  display: flex;
+  width:50%;
+  align-content: center;
+}
+
+.btn-group button {
+  border-radius:0;
+  border: none;
+  flex:1;
+}
+.btn-group input {
+  flex:1.5;
+  margin-right:-3px;
+}
+footer {
+  height:30vw;
 }
