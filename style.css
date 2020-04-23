@@ -486,8 +486,8 @@ footer {
 ================================================================================== */
 
 @media (max-width: 768px){
-  nav {
-    background-color:yellow;
+  .nav-items {
+    display: none;
   }
   .previous-articles {
     display: grid;
