@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Teshager21/OldAppleClone/7807c2d4152e4054a90d06e172e1880f1d7c5cec/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/Smashing-Magazine/b2cae1744b53caada0b988b36d4d5627481f70ac/index.html)
 
 ## Milestone
 
@@ -48,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 
     In any browser, open the index.html file
 
-
+## Authors
 
 👤 **Author**
 
@@ -61,10 +61,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author**
 
-- Gmail: [Teshager Admasu](mailto:teshager8922@gmail.com)
-- Github: [@teshager21](https://github.com/teshager21)
-- Twitter: [@Teshage84907805](https://twitter.com/Teshage84907805)
-- Linkedin: [Teshager Admasu](https://www.linkedin.com/in/teshager-admasu-0000011a2/)
+- Gmail: [Jasem Valencia](mailto:jasemvalencia@gmail.com)
+- Github: [@githubhandle](https://github.com/JasemDuncan)
+- Twitter: [@twitterhandle](https://twitter.com/JasemValencia)
+- Linkedin: [@linkedin](www.linkedin.com/in/Jasem-Duncan-Valencia)
 
 ## 🤝 Contributing
 
