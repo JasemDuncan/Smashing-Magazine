@@ -20,6 +20,10 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
+*{
+  color:white;
+}
+
 
 /* ==================================================================================
                         Layout
@@ -95,6 +99,11 @@ nav {
   justify-items: center;
   align-items: center;
   justify-content: center;
+  position:relative;
+  /* background: url('./Assets/images/readmore.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 95%;
+  background-size: 5%; */
 }
 
 .feature:first-child,
