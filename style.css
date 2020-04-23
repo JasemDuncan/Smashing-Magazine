@@ -377,7 +377,7 @@ button {
   justify-items: center;
 }
 
-.more-article  div .autor-wrote{
+.more-article div .autor-wrote {
   display: flex;
   flex-direction: row;
 }
