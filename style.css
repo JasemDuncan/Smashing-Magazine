@@ -134,7 +134,8 @@ nav {
 }
 
 .author img {
-  width: 6%;
+  width: 10%;
+  border-radius: .5em;
 }
 
 .author h3,
@@ -294,8 +295,10 @@ button {
 }
 
 .more-article img {
-  padding-right: 1.5em;
+  margin-right: 1.5em;
   align-self: start;
+  border:#333 solid .3em;
+  border-radius:.5em;
 }
 
 .book-ad div div:nth-child(2) > img {
@@ -393,4 +396,9 @@ button {
 }
 .angle {
   transform:rotateZ(-11deg);
+  transition: transform 200ms ease-in-out;
+}
+
+.angle:hover{
+  transform: rotateZ(0deg);
 }
