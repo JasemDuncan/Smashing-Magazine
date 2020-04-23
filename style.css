@@ -10,6 +10,10 @@ h1 {
   font-size: 2.6rem;
   font-weight: 700;
 }
+.title {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
 
 h2 {
   font-size: 2rem;
@@ -28,6 +32,10 @@ h3 {
 /* ==================================================================================
                         Layout
 ================================================================================== */
+html{
+  overflow-x: hidden;
+}
+
 body {
   background-color: #bbb;
   box-sizing: border-box;
@@ -47,6 +55,10 @@ nav {
   flex: 1;
 }
 
+img[src="./Assets/images/20635138.jpg"]{
+  width: 4em;
+  height: 4em;
+}
 .nav-items {
   display: flex;
   flex: 5;
@@ -251,6 +263,10 @@ p {
   align-content: center;
   border-radius: 2em;
 }
+.call img {
+  height: 484px;
+  width:40%;
+}
 
 .see-more {
   grid-column: 1/-1;
@@ -271,6 +287,10 @@ p {
   align-items: center;
   align-self: center;
   height: 90%;
+}
+
+.book-ad img {
+  height:371px;
 }
 
 .design-system {
@@ -308,6 +328,7 @@ button {
 
 .person-of-the-week img {
   width: 38%;
+  height: 284px;
   border: 10px #222 solid;
   border-radius: 1em;
   align-self: flex-end;
@@ -366,6 +387,11 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.book-advert img {
+  width: 40%;
+  height: 517px;
 }
 
 .person-of-the-week {
