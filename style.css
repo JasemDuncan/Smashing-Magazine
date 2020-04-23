@@ -93,6 +93,7 @@ img[src="./Assets/images/20635138.jpg"] {
 .float-title {
   text-align: center;
   color: white;
+  box-shadow: 0 150px 45px -30px #333;
   font-size: calc(0.625vw + 1.3em);
   font-weight: 700;
   line-height: 1.5em;
