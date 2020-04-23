@@ -118,11 +118,6 @@ img[src="./Assets/images/20635138.jpg"]{
   align-items: center;
   justify-content: center;
   position: relative;
-
-  /* background: url('./Assets/images/readmore.svg');
-  background-repeat: no-repeat;
-  background-position: 5% 95%;
-  background-size: 5%; */
 }
 
 .feature:first-child,
@@ -248,8 +243,6 @@ p {
   width: 90%;
   align-items: center;
   justify-content: center;
-
-  /* background-color: gold; */
 }
 
 .call {
@@ -354,8 +347,6 @@ button {
   padding-left: 5em;
   margin-top: 5em;
   background-color: #616161;
-
-  /* grid-row: 12; */
 }
 
 .guides p {
@@ -435,8 +426,6 @@ button {
   width: 90%;
   display: flex;
   justify-items: space-evenly;
-
-  /* background-color: black; */
   align-items: center;
   align-content: center;
   padding-left: 3em;
@@ -504,8 +493,6 @@ footer {
   justify-items: space-evenly;
   justify-content: center;
   padding: 4rem;
-
-  /* background-color: red; */
   margin: 0 auto;
   flex-wrap: wrap;
   list-style-type: disc;
@@ -561,8 +548,6 @@ footer {
     width: 90%;
     align-items: center;
     justify-content: center;
-
-    /* background-color: gold; */
   }
 
   .more-articles {
