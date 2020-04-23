@@ -190,8 +190,7 @@ p {
   width: 80%;
   height: 90%;
   border: black solid 1px;
-  /* background-color: goldenrod; */
-  background-color: #616161;
+  background:linear-gradient(#616161,#aaa);
   position: relative;
 }
 
