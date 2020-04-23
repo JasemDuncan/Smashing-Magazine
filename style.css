@@ -20,21 +20,23 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
-*{
-  color:white;
+
+* {
+  color: white;
 }
 
 
 /* ==================================================================================
                         Layout
 ================================================================================== */
-body{
+body {
   background-color: #bbb;
 }
+
 nav {
   display: flex;
   height: 13em;
-  background: linear-gradient( to right, #333,#777);
+  background: linear-gradient(to right, #333, #777);
 }
 
 .logo {
@@ -102,8 +104,8 @@ nav {
   justify-items: center;
   align-items: center;
   justify-content: center;
-  position:relative;
-  
+  position: relative;
+
   /* background: url('./Assets/images/readmore.svg');
   background-repeat: no-repeat;
   background-position: 5% 95%;
@@ -129,7 +131,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
 
 .comment {
@@ -190,7 +191,7 @@ p {
   width: 80%;
   height: 90%;
   border: black solid 1px;
-  background:linear-gradient(#616161,#aaa);
+  background: linear-gradient(#616161, #aaa);
   position: relative;
 }
 
@@ -234,6 +235,7 @@ p {
   width: 90%;
   align-items: center;
   justify-content: center;
+
   /* background-color: gold; */
 }
 
@@ -285,7 +287,7 @@ button {
   border-radius: 8px;
   font-size: calc(1em + 0.5vw);
   padding: 0.75em 1em;
-  border:none;
+  border: none;
   font-weight: bold;
   background-color: #333;
 }
@@ -532,6 +534,7 @@ footer {
     width: 90%;
     align-items: center;
     justify-content: center;
+
     /* background-color: gold; */
   }
 
