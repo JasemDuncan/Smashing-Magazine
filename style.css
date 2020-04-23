@@ -485,10 +485,11 @@ footer {
                         Responsiveness
 ================================================================================== */
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .nav-items {
     display: none;
   }
+
   .previous-articles {
     display: grid;
     grid-template-columns: 100vw;
@@ -496,32 +497,28 @@ footer {
     justify-items: center;
   }
 
-.sign-up {
-  grid-column: span 1;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  height: 90%;
-  width: 90%;
-  align-items: center;
-  justify-content: center;
-  background-color: gold;
-}
+  .sign-up {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 90%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+  }
 
-.more-articles {
-  grid-column: span 1;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}
+  .more-articles {
+    grid-column: span 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
 
-.person-of-the-week {
-   grid-column: span 1;
-  display: flex; 
-  flex-direction: column;
-
-}
-
-
-
+  .person-of-the-week {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+  }
 }
