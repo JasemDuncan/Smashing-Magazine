@@ -242,7 +242,7 @@ p {
   display: flex;
   flex-direction: column;
   align-self: center;
-  height: 90%;
+  height: 100%;
   width: 90%;
   align-items: center;
   justify-content: center;
@@ -258,7 +258,7 @@ p {
   align-items: center;
   align-content: center;
   border-radius: 2em;
-  margin-top: 2em;
+  margin: 1% 0;
 }
 
 .call img {
