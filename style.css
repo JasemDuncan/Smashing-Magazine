@@ -258,6 +258,7 @@ p {
   align-items: center;
   align-content: center;
   border-radius: 2em;
+  margin-top: 2em;
 }
 
 .call img {
