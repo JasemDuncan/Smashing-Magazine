@@ -1,0 +1,569 @@
+/* ==================================================================================
+                       Typography
+================================================================================== */
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+* {
+  color: white;
+}
+
+/* ==================================================================================
+                        Layout
+================================================================================== */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #bbb;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  height: 13em;
+  background: linear-gradient(to right, #333, #777);
+}
+
+.logo {
+  background: url("https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg ");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+}
+
+img[src="./Assets/images/20635138.jpg"] {
+  width: 4em;
+  height: 4em;
+}
+
+.nav-items {
+  display: flex;
+  flex: 5;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-link {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-float {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0, 3em;
+  margin-bottom: -10em;
+}
+
+.float-title {
+  text-align: center;
+  color: white;
+  box-shadow: 0 150px 45px -30px #333;
+  font-size: calc(0.625vw + 1.3em);
+  font-weight: 700;
+  line-height: 1.5em;
+  padding: 0.5em;
+  background-color: #222;
+  z-index: 999;
+}
+
+.float-title:last-child {
+  padding-top: 0;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  grid-auto-rows: 80vh;
+  width: 100%;
+}
+
+.feature {
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.feature:first-child,
+.feature:last-child {
+  background-color: #5b5b5b;
+}
+
+.feature:nth-child(2) {
+  background-color: #616161;
+}
+
+.feature:nth-child(3) {
+  background-color: #565656;
+}
+
+.card {
+  height: 30%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.comment {
+  background: url('./Assets/images/message.ico');
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyAyOC43MyIgd2lkdGg9IjI4cHgiIGhlaWdodD0iMjhweCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5jb21tZW50PC90aXRsZT48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik05NjAuMzMgMjUyLjMzaC00LjUybC4wNiA3LjczLTYuNjktNy43M2gtOS44NWEzIDMgMCAwIDEtMy0zdi0xNWEzIDMgMCAwIDEgMy0zaDIxYTMgMyAwIDAgMSAzIDN2MTVhMyAzIDAgMCAxLTMgM3oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05MzYuMzMgLTIzMS4zMykiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2em;
+  justify-self: center;
+}
+
+.author {
+  display: flex;
+  padding-bottom: 2em;
+}
+
+.author img {
+  width: 10%;
+  border-radius: 0.5em;
+}
+
+.author h3,
+p {
+  align-self: center;
+  padding-right: 0.5em;
+}
+
+.article-title {
+  display: flex;
+  padding-bottom: 2em;
+}
+
+.img-comment {
+  display: inline-flex;
+  align-items: flex-start;
+  width: 40%;
+  height: 2em;
+  font-size: 1rem;
+}
+
+.img-comment h1 {
+  display: inline;
+  padding-left: 0;
+}
+
+.previous-articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 45vw) 5vw 60vw 20vw repeat(3, 25vw) 5vw 20vw 40vw 50vw 5vw;
+  justify-items: center;
+}
+
+.late {
+  display: flex;
+  padding: 7%;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+  height: 90%;
+  background: linear-gradient(#616161, #aaa);
+  position: relative;
+}
+
+.late * {
+  padding-bottom: 1em;
+  padding-top: 0;
+  margin: 0;
+  align-self: start;
+  position: relative;
+  grid-column: span 1;
+}
+
+.previous-articles p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.readmore {
+  position: absolute;
+  margin-bottom: 0;
+  width: 35%;
+  height: 15%;
+  left: 0%;
+  bottom: 0%;
+  background: url('./Assets/images/readmore.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25%;
+}
+
+.readmore:hover {
+  background-color: #fff;
+}
+
+.sign-up {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 90%;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.call {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #444;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  border-radius: 2em;
+}
+
+.call img {
+  height: 484px;
+  width: 40%;
+}
+
+.see-more {
+  grid-column: 1/-1;
+  display: flex;
+  align-self: center;
+}
+
+.book-ad {
+  display: flex;
+  grid-column: 1/-1;
+  justify-content: center;
+  background-color: #444;
+}
+
+.book-ad > div {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  align-self: center;
+  height: 90%;
+}
+
+.book-ad img {
+  height: 371px;
+}
+
+.design-system {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex: 5;
+  align-items: flex-start;
+  background-color: #5b5b5b;
+}
+
+button {
+  height: 70px;
+  border-radius: 8px;
+  font-size: calc(1em + 0.5vw);
+  padding: 0.75em 1em;
+  border: none;
+  font-weight: bold;
+  background-color: #333;
+}
+
+.more-article div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.book-ad div div:nth-child(2) {
+  display: flex;
+  flex: 3;
+  justify-content: flex-end;
+}
+
+.person-of-the-week img {
+  width: 38%;
+  height: 284px;
+  border: 10px #222 solid;
+  border-radius: 1em;
+  align-self: flex-end;
+  margin-right: 2em;
+}
+
+.more-article img {
+  margin-right: 1.5em;
+  align-self: start;
+  border: #333 solid 0.3em;
+  border-radius: 0.5em;
+}
+
+.book-advert img {
+  width: 40%;
+  height: 517px;
+}
+
+.book-ad div div:nth-child(2) > img {
+  width: 35%;
+}
+
+.guides {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 5em;
+  margin-top: 5em;
+  background-color: #616161;
+}
+
+.guides p {
+  margin-bottom: 1em;
+  align-self: flex-start;
+  font-size: 0.8em;
+}
+
+.guides h2 {
+  padding-bottom: 1em;
+}
+
+.guides ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: black;
+}
+
+.guides li {
+  line-height: 2em;
+  font-size: 1.3em;
+  padding-left: 1em;
+}
+
+.book-advert {
+  grid-column: -1/1;
+  background-color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.person-of-the-week {
+  grid-column: -1/1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #616161;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  align-self: start;
+}
+
+.legacy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.legacy p:first-child {
+  align-self: flex-start;
+  padding-bottom: 2rem;
+}
+
+.more-articles {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: #616161;
+}
+
+.more-article div .autor-wrote {
+  display: flex;
+  flex-direction: row;
+}
+
+.more-article {
+  width: 90%;
+  display: flex;
+  justify-items: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding-left: 3em;
+}
+
+.author-wrote {
+  display: flex;
+  background-color: grey;
+}
+
+.more-article div * {
+  padding-bottom: 1em;
+}
+
+.angle {
+  transform: rotateZ(-11deg);
+  transition: transform 200ms ease-in;
+}
+
+.angle:hover {
+  transform: rotateZ(0deg);
+}
+
+.news-letter {
+  grid-column: 1/-1;
+  height: 100%;
+  grid-row: 13/span 1;
+}
+
+.btn-group {
+  display: flex;
+  width: 50%;
+  align-content: center;
+}
+
+.btn-group button {
+  border-radius: 0;
+  border: none;
+  flex: 1;
+}
+
+.btn-group input {
+  flex: 1.5;
+  margin-right: -3px;
+}
+
+.big {
+  grid-column: 1/-1;
+  padding: 0 10%;
+  width: 90%;
+}
+
+footer {
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5b5b5b;
+}
+
+.interests {
+  display: flex;
+  font-size: 2rem;
+  width: 90vw;
+  justify-items: space-evenly;
+  justify-content: center;
+  padding: 4rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  list-style-position: inside;
+  color: black;
+}
+
+.interests li {
+  padding: 0.5em 1em;
+}
+
+.founding {
+  width: 25vw;
+  margin: 0 auto;
+  padding: 4em;
+  text-align: center;
+}
+
+.bookmarks {
+  display: flex;
+  width: 30vw;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bookmarks a {
+  padding: 0.5em;
+}
+
+/* ==================================================================================
+                        Responsiveness
+================================================================================== */
+
+@media (max-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+
+  .previous-articles {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+
+  .sign-up {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 90%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .more-articles {
+    grid-column: span 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .person-of-the-week {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
