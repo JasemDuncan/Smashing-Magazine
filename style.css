@@ -265,6 +265,11 @@ p {
   width: 40%;
 }
 
+.call p {
+  width: 70%;
+  text-align: center;
+}
+
 .see-more {
   grid-column: 1/-1;
   display: flex;
@@ -298,7 +303,7 @@ p {
   flex: 5;
   align-items: flex-start;
   background-color: #5b5b5b;
-  padding:1em 2em; 
+  padding: 1em 2em;
 }
 
 button {
@@ -343,6 +348,11 @@ button {
 .book-advert img {
   width: 40%;
   height: 517px;
+}
+
+.book-advert p {
+  width: 50%;
+  font-size: 1.5em;
 }
 
 .book-ad div div:nth-child(2) > img {
