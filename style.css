@@ -298,6 +298,7 @@ p {
   flex: 5;
   align-items: flex-start;
   background-color: #5b5b5b;
+  padding:1em 2em; 
 }
 
 button {
