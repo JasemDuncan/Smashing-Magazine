@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/Smashing-Magazine/6008ac5653cc5ae3462beaac86975eee1f2a9c93/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/Smashing-Magazine/ea7a5fecd9a54e539143ab833443e5596ee27fd5/index.html)
 
 ## Milestone
 
